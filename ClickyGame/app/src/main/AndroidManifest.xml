@@ -45,6 +45,13 @@
         android:supportsRtl="true"
         android:resizeableActivity="true"
         android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="336684a672860d50a11e523f666fbee2d44cf069"
+            />
+
+
         <activity
             android:name=".ActSplash"
             android:label="@string/app_name"
@@ -68,6 +75,8 @@
             android:label="@string/app_name"/>
 
         <activity android:name=".ActNotification"
+            android:label="@string/app_name"/>
+        <activity android:name=".ActCSVImageList"
             android:label="@string/app_name"/>
         <activity
             android:name=".DownloadImage"

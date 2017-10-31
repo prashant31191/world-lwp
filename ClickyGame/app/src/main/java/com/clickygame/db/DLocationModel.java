@@ -11,22 +11,22 @@ import io.realm.RealmObject;
 public class DLocationModel extends RealmObject {
 
     @SerializedName("Country")
-    public String Country;
+    public String Country="";
 
     @SerializedName("Region")
-    public String Region;
+    public String Region="";
 
     @SerializedName("Image_URL")
-    public String Image_URL;
+    public String Image_URL="";
 
     @SerializedName("Google_Maps_URL")
-    public String Google_Maps_URL;
+    public String Google_Maps_URL="";
 
     @SerializedName("isFavorite")
     public String isFavorite="0";
 
     @SerializedName("ID")
-    public int ID;
+    public int ID=0;
 
     public void setCountry(String country) {
         Country = country;

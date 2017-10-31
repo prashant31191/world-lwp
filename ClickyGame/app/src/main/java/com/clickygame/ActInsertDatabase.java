@@ -92,7 +92,8 @@ public class ActInsertDatabase extends AppCompatActivity {
                     App.sLog("===========display records====");
                     //getAllRecords();
 
-                    Intent intent = new Intent(ActInsertDatabase.this,ActNotification.class);
+                    //Intent intent = new Intent(ActInsertDatabase.this,ActNotification.class);
+                    Intent intent = new Intent(ActInsertDatabase.this,ActCSVImageList.class);
                     startActivity(intent);
 
 

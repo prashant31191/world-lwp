@@ -24,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.clickygame.utils.SharePrefrences;
+import com.crashlytics.android.Crashlytics;
 import com.google.firebase.FirebaseApp;
 import com.google.gson.Gson;
 
@@ -35,6 +36,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
+import io.fabric.sdk.android.Fabric;
 import io.realm.Realm;
 import okhttp3.MediaType;
 import okhttp3.RequestBody;
@@ -76,6 +78,7 @@ public class App extends Application {
             sharePrefrences = new SharePrefrences(App.this);
 
             Realm.init(this);
+            Fabric.with(this, new Crashlytics());
 
 
             getFont_Regular();
