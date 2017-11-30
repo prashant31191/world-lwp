@@ -21,6 +21,8 @@
     <color name="clrCardbgRead">#ffffff</color>
 
 
+    <color name="bgTr2Black">#80000000</color>
+    <color name="bgTrBlack">#50000000</color>
     <color name="bgTrWhite">#50ffffff</color>
     <color name="clrPeach">#FF4081</color>
 

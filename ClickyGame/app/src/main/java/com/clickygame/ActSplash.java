@@ -170,6 +170,7 @@ public class ActSplash extends Activity {
             public void run() {
                 // TODO Auto-generated method stub
                 if (isAppUpdated == false) {
+                   // Intent iv = new Intent(ActSplash.this, ActListAnimation.class);
                     Intent iv = new Intent(ActSplash.this, MainActivity.class);
                     iv.putExtra("from", "splash");
                     startActivity(iv);

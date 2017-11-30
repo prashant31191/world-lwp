@@ -74,6 +74,10 @@
         <activity android:name=".ActInsertDatabase"
             android:label="@string/app_name"/>
 
+        <activity android:name=".ActListAnimation"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name"/>
+
         <activity android:name=".ActNotification"
             android:label="@string/app_name"/>
         <activity android:name=".ActCSVImageList"
