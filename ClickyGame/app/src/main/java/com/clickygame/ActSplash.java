@@ -160,6 +160,7 @@ public class ActSplash extends Activity {
         }
     }
 
+
     // splash screen set with timing
     private void displaySplash() {
         // TODO Auto-generated method stub b
